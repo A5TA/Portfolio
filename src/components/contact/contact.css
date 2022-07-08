@@ -1,0 +1,9 @@
+.contact__container {
+    max-width: 600px;
+    margin: 0 auto 100px;
+    text-align: center;
+}
+
+.contact__container p {
+    margin-bottom: 2rem;
+}

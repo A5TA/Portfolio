@@ -11,7 +11,7 @@ const Contact = () => {
 
       <div className="container contact__container">
         <p>
-          Although I’m not currently looking for any new opportunities, my inbox is always open.
+          I am always on the lookout for any new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi, I’ll try my best to get back to you!
         </p>
 

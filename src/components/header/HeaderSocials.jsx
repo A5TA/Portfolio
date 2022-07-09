@@ -6,9 +6,9 @@ import {SiDevpost} from 'react-icons/si'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer"><BsLinkedin/></a>
-        <a href="https://github.com" target="_blank" rel="noreferrer"><BsGithub/></a>
-        <a href="https://devpost.com" target="_blank" rel="noreferrer"><SiDevpost/></a>
+        <a href="https://www.linkedin.com/in/brandon-cardillo" target="_blank" rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://github.com/A5TA" target="_blank" rel="noreferrer"><BsGithub/></a>
+        <a href="https://devpost.com/crusherbrandon" target="_blank" rel="noreferrer"><SiDevpost/></a>
     </div>
   )
 }

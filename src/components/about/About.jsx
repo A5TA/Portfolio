@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-test.png'
 import {AiOutlineTrophy} from 'react-icons/ai'
 import {RiTeamLine} from 'react-icons/ri'
 import {TiFolderOpen} from 'react-icons/ti'
@@ -25,7 +25,7 @@ const About = () => {
             <article className='about__card'>
               <RiTeamLine className='about__icon'/>
               <h5>Leadership</h5>
-              <small>1+ year of Experience</small>
+              <small>2+ year of Experience</small>
             </article>
             <article className='about__card'>
               <TiFolderOpen className='about__icon'/>
@@ -33,9 +33,15 @@ const About = () => {
               <small>5+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptas 
-            earum vitae rem animinon numquam quidem iusto accusantium, quasi blanditiis maiores 
-            vero ab enim fuga unde iste cupiditate explicabo.
+          <p>Hello! Brandon is my name, and I enjoy designing and developing online applications. 
+            I knew what I wanted to pursue with the rest of my life the moment I coded my first hello 
+            world. This year, I've participated in four hackathons, and my passion for coding has grown 
+            even more as a result of working with other like-minded individuals. I learnt how to cooperate 
+            with people and solve problems more efficiently and effectively in those fast-paced environments.
+          </p>
+          <p>
+          I began learning React in June 2022, and my web development skills have skyrocketed as a result. 
+          I am always trying to learn new technologies, and I am seeking internship opportunities for the summer of 2023.
           </p>
           <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>

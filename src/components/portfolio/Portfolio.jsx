@@ -56,14 +56,16 @@ const data = [
     image: IMG4,
     title: "Amazon Web-Scraper",
     github: "https://github.com/A5TA/web-scraper",
-    technology: ['python', 'scrapy', 'SQlite']
+    technology: ['python', 'scrapy', 'SQlite'],
+    shown: false
   },
   {
     id: 5,
     image: IMG5,
     title: "Tenzis Game",
     github: "https://github.com/A5TA/TenzisGame",
-    technology: ['React', 'nodeJS', 'HTML', 'css']
+    technology: ['React', 'nodeJS', 'HTML', 'css'],
+    shown: false
   }
 ]
 
@@ -89,7 +91,9 @@ const Portfolio = () => {
         <div className='portfolio__item-CTA'>
           <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
           {/* The logic for the button is that the shown variable will be modified when clicked */}
-          <button key={id} className='btn btn-primary' onClick={() => setShowTech([...showTech, showTech[id-1].shown = !showTech[id-1].shown])}>Show Tech</button>
+          <button key={id} className='btn btn-primary' onClick={() => setShowTech([...showTech, showTech[id-1].shown = !showTech[id-1].shown])}>
+            {showTech[id-1].shown ? 'Hide': 'Show'} Tech
+          </button>
         </div>
         {showTech[id - 1].shown === true && <ul className="portfolio_item-tech">
           {technology.map((technology, i) => (

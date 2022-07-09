@@ -19,8 +19,6 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="me" />
         </div>
-
-        
         <a href="#contact" className='scroll__down'><IoArrowDownCircle size="25px"/></a>
       </div>
     </header>

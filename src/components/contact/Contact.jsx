@@ -3,7 +3,7 @@ import './contact.css'
 
 
 const Contact = () => {
-  const email = 'bc1505@mynsu.nova.edu'
+  const email = 'brandonjcardillo@gmail.com'
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>

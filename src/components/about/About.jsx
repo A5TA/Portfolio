@@ -33,7 +33,7 @@ const About = () => {
               <small>5+ Completed</small>
             </article>
           </div>
-          <p>Hello! Brandon is my name, and I enjoy designing and developing online applications. 
+          <p>Hello! my name is Brandon, and I enjoy designing and developing online applications. 
             I knew what I wanted to pursue with the rest of my life the moment I coded my first hello 
             world. This year, I've participated in four hackathons, and my passion for coding has grown 
             even more as a result of working with other like-minded individuals. I learnt how to cooperate 

@@ -31,6 +31,14 @@ const Experience = () => {
             <article className='experience__details'>
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
+                <h4>Tailwind CSS</h4>
+                <small className='text-light'>Familiar</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
                 <h4>Javascript</h4>
                 <small className='text-light'>Experienced</small>
               </div>
@@ -40,7 +48,7 @@ const Experience = () => {
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
+                <small className='text-light'>Familiar</small>
               </div>
             </article>
 

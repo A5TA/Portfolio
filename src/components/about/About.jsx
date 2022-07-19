@@ -36,8 +36,8 @@ const About = () => {
           <p>Hello! my name is Brandon, and I enjoy designing and developing online applications. 
             I knew what I wanted to pursue with the rest of my life the moment I coded my first hello 
             world. This year, I've participated in four hackathons, and my passion for coding has grown 
-            even more as a result of working with other like-minded individuals. I learnt how to cooperate 
-            with people and solve problems more efficiently and effectively in those fast-paced environments.
+            even more as a result of working with other like-minded individuals. I learned how to cooperate 
+            with people and solve problems more efficiently and effectively in fast-paced environments.
           </p>
           <p>
           I began learning React in June 2022, and my web development skills have skyrocketed as a result. 

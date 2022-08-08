@@ -6,6 +6,7 @@ import IMG2 from '../../assets/rookie_robot.jpg'
 import IMG3 from '../../assets/shop-a-reality.jpg'
 import IMG4 from '../../assets/spider.png'
 import IMG5 from '../../assets/tenzis.jpg'
+import IMG2New from '../../assets/travelGuideIMG.JPG'
 
 
 const data = [
@@ -28,6 +29,20 @@ const data = [
   },
   {
     id: 2,
+    image: IMG2New,
+    title: "Travel Guide",
+    github: "https://github.com/A5TA/travel-guide",
+    technology: ['javascript',
+    'React',
+    'MaterialUI',
+    'Google Maps API',
+    'Google Places API'
+  ],
+    demolink: "https://travel-guide-seven.vercel.app/",
+    shown: false
+  },
+  {
+    id: 3,
     image: IMG1,
     title: "SimpleScribe",
     github: "https://github.com/A5TA/Simple-Scribe",
@@ -44,7 +59,7 @@ const data = [
     shown: false
   },
   {
-    id: 3,
+    id: 4,
     image: IMG2,
     title: "RookieRobot",
     github: "https://github.com/A5TA/RookieRobot",
@@ -58,7 +73,7 @@ const data = [
     shown: false
   },
   {
-    id: 4,
+    id: 5,
     image: IMG3,
     title: "ShopAReality",
     github: "https://github.com/A5TA/ShopAReality",
@@ -70,21 +85,13 @@ const data = [
     shown: false
   },
   {
-    id: 5,
+    id: 6,
     image: IMG4,
     title: "Amazon Web-Scraper",
     github: "https://github.com/A5TA/web-scraper",
     technology: ['python', 'scrapy', 'SQlite'],
     shown: false
   },
-  {
-    id: 6,
-    image: IMG5,
-    title: "Tenzis Game",
-    github: "https://github.com/A5TA/TenzisGame",
-    technology: ['React', 'nodeJS', 'HTML', 'css'],
-    shown: false
-  }
 ]
 
 

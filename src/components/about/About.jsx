@@ -20,28 +20,22 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineTrophy className='about__icon'/>
               <h5>Experience</h5>
-              <small>1+ year of Experience</small>
+              <small>2+ year of Experience</small>
             </article>
             <article className='about__card'>
               <RiTeamLine className='about__icon'/>
               <h5>Leadership</h5>
-              <small>2+ year of Experience</small>
+              <small>3+ year of Experience</small>
             </article>
             <article className='about__card'>
               <TiFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
           <p>Hello! my name is Brandon, and I enjoy designing and developing online applications. 
             I knew what I wanted to pursue with the rest of my life the moment I coded my first hello 
-            world. This year, I've participated in four hackathons, and my passion for coding has grown 
-            even more as a result of working with other like-minded individuals. I learned how to cooperate 
-            with people and solve problems more efficiently and effectively in fast-paced environments.
-          </p>
-          <p>
-          I began learning React in June 2022, and my web development skills have skyrocketed as a result. 
-          I am always trying to learn new technologies, and I am seeking internship opportunities for the summer of 2023.
+            world. I have two internship experiences and always looking for new opportunitites!
           </p>
           <a href="#contact" className='btn btn-primary'>Contact Me</a>
         </div>

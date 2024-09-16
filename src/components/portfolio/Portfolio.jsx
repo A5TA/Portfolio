@@ -3,15 +3,24 @@ import './portfolio.css'
 import IMG0 from '../../assets/health-club.JPG'
 import IMG1 from '../../assets/Simple-Scribe.jpg'
 import IMG2 from '../../assets/rookie_robot.jpg'
-import IMG3 from '../../assets/shop-a-reality.jpg'
-import IMG4 from '../../assets/spider.png'
-import IMG5 from '../../assets/tenzis.jpg'
+// import IMG3 from '../../assets/shop-a-reality.jpg'
+// import IMG4 from '../../assets/spider.png'
+// import IMG5 from '../../assets/tenzis.jpg'
+import logo0 from '../../assets/sprintflow.webp'
 import IMG2New from '../../assets/travelGuideIMG.JPG'
 
 
 const data = [
+  { id: 1,
+    image: logo0,
+    title: "Health Club",
+    github: "https://github.com/A5TA/SprintFlow",
+    technology: 
+    [ 'React', 'Java', 'Spring Boot', 'PostgreSQL', 'Docker'
+    ]
+  },
   {
-    id: 1,
+    id: 2,
     image: IMG0,
     title: "Health Club",
     github: "https://github.com/A5TA/Health-Club",
@@ -28,7 +37,7 @@ const data = [
     shown: false
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2New,
     title: "Travel Guide",
     github: "https://github.com/A5TA/travel-guide",
@@ -42,7 +51,7 @@ const data = [
     shown: false
   },
   {
-    id: 3,
+    id: 4,
     image: IMG1,
     title: "SimpleScribe",
     github: "https://github.com/A5TA/Simple-Scribe",
@@ -59,7 +68,7 @@ const data = [
     shown: false
   },
   {
-    id: 4,
+    id: 5,
     image: IMG2,
     title: "RookieRobot",
     github: "https://github.com/A5TA/RookieRobot",
@@ -72,26 +81,26 @@ const data = [
       'twitter'],
     shown: false
   },
-  {
-    id: 5,
-    image: IMG3,
-    title: "ShopAReality",
-    github: "https://github.com/A5TA/ShopAReality",
-    technology: ['css',
-      'echo3d',
-      'flask',
-      'python'
-      ],
-    shown: false
-  },
-  {
-    id: 6,
-    image: IMG4,
-    title: "Amazon Web-Scraper",
-    github: "https://github.com/A5TA/web-scraper",
-    technology: ['python', 'scrapy', 'SQlite'],
-    shown: false
-  },
+  // {
+  //   id: 5,
+  //   image: IMG3,
+  //   title: "ShopAReality",
+  //   github: "https://github.com/A5TA/ShopAReality",
+  //   technology: ['css',
+  //     'echo3d',
+  //     'flask',
+  //     'python'
+  //     ],
+  //   shown: false
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG4,
+  //   title: "Amazon Web-Scraper",
+  //   github: "https://github.com/A5TA/web-scraper",
+  //   technology: ['python', 'scrapy', 'SQlite'],
+  //   shown: false
+  // },
 ]
 
 

@@ -15,40 +15,8 @@ const Experience = () => {
             <article className='experience__details'>
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
-                <h4>HTML</h4>
+                <h4>HTML/CSS</h4>
                 <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BiChevronRightCircle className="experience__details-icon"/>
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BiChevronRightCircle className="experience__details-icon"/>
-              <div>
-                <h4>Tailwind CSS</h4>
-                <small className='text-light'>Familiar</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BiChevronRightCircle className="experience__details-icon"/>
-              <div>
-                <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BiChevronRightCircle className="experience__details-icon"/>
-              <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Familiar</small>
               </div>
             </article>
 
@@ -56,6 +24,38 @@ const Experience = () => {
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
                 <h4>React</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Angular</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Javascript/TypeScript</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Flutter</h4>
+                <small className='text-light'>Familiar</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Tailwind CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -84,16 +84,31 @@ const Experience = () => {
             <article className='experience__details'>
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
-                <h4>SQLite</h4>
-                <small className='text-light'>Basic</small>
+                <h4>SQLite/PostgreSQL/MySQL</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
 
             <article className='experience__details'>
               <BiChevronRightCircle className="experience__details-icon"/>
               <div>
-                <h4>C</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Java Spring Boot</h4>
+                <small className='text-light'>Highly Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Docker</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BiChevronRightCircle className="experience__details-icon"/>
+              <div>
+                <h4>Flask</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>

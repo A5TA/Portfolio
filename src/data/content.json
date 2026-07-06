@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "pageTitle": "Brandon Cardillo — Software Engineer",
+    "name": "Brandon Cardillo",
+    "brand": "brandoncardillo",
+    "brandAccent": "",
+    "role": "Software Engineer",
+    "location": "Sunrise, FL"
+  },
+
+  "theme": {
+    "accent": ["#d946ef", "#ec4899", "#f5d56b"],
+    "bg": "#08060f",
+    "showProgress": true
+  },
+
+  "nav": [
+    { "id": "about", "label": "About" },
+    { "id": "experience", "label": "Experience" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "skills", "label": "Skills" },
+    { "id": "contact", "label": "Contact" }
+  ],
+
+  "hero": {
+    "eyebrow": "Software Engineer — Sunrise, FL",
+    "nameLines": ["BRANDON", "CARDILLO"],
+    "subtitleIntro": "Building the systems with impact",
+    "subtitleAfter": "now — the fun stuff.",
+    "stateLine": "Full-stack · C# · Java · Angular"
+  },
+
+  "marquee": [
+    ["based in", "Sunrise, FL"],
+    ["currently at", "UKG"],
+    ["shipping", "C# · Java · Angular"],
+    ["building", "APIs · domain models · tooling"],
+    ["recently", "2nd / 1,200+ @ ShellHacks"],
+    ["writing", "backend + full-stack"]
+  ],
+
+  "about": {
+    "sectionNum": "01",
+    "title": "About",
+    "portraitShape": "rounded",
+    "portraitCaption": "fig. 01 me",
+    "portraitBadge": "sunrise, fl",
+    "statement": [
+      { "t": "I'm interested in the parts of software that don't get demoed like " },
+      { "t": "building microservices, ", "c": "accent-it" },
+      { "t": "large scale migrations, ", "c": "accent-it" },
+      { "t": "testing infrastructure, ", "c": "accent-it" },
+      { "t": "and anything user or non-user facing" }
+    ],
+    "paragraphs": [
+      "Studied CS at Nova Southeastern, summa cum laude, with minors in Mathematics, Cybersecurity, and A.I. Applications. I have had internships at BNY Mellon and UKG — returned to UKG as a SWE 1",
+      "Outside of work: reading, side projects, and watching anime."
+    ],
+    "facts": [
+      ["Education", "B.S. Computer Science", "Nova Southeastern · Summa Cum Laude"],
+      ["Minors", "Math · Cyber · A.I.", "Three of them"],
+      ["Location", "Sunrise, FL", "South Florida"],
+      ["Currently", "Associate SWE @ UKG", "Backend · Full-stack"]
+    ]
+  },
+
+  "experience": {
+    "sectionNum": "02",
+    "title": "Experience",
+    "italic": "Experience",
+    "lead": "Three years across enterprise platforms and financial systems.",
+    "roles": [
+      {
+        "role": "Associate Software Engineer",
+        "company": "UKG · Ultimate Kronos Group",
+        "date": "May 2025 — Present",
+        "where": "Sunrise, FL",
+        "current": true,
+        "bullets": [
+          "Build RESTful APIs in C# .NET Core & Java Spring Boot using Domain-Driven Design",
+          "Designed automation that generates DB tables + relationships for 100+ domain aggregates — cut migration time 70%",
+          "Refactored transactional workflows, converted fat events to thin high-performance events, resolved production incidents",
+          "Led adoption of LaunchDarkly feature flags across Angular frontend for progressive delivery",
+          "Wrote unit / integration tests with xUnit, JUnit, Karma / Jasmine to keep CI/CD green"
+        ],
+        "stack": ["C# .NET", "Java Spring", "Angular", "LaunchDarkly", "xUnit", "DDD"]
+      },
+      {
+        "role": "Software Engineer Intern",
+        "company": "UKG · Ultimate Kronos Group",
+        "date": "May 2024 — Aug 2024",
+        "where": "Weston, FL",
+        "current": false,
+        "bullets": [
+          "Built scalable Java Spring Boot services & APIs with Liquibase for database version control",
+          "Implemented features in Angular + Redux across developer-facing tools and customer-facing UI",
+          "Introduced automated testing with JUnit + SonarQube — bumped test coverage 25%",
+          "Refined GitHub Actions workflows — cut deployment time 20%"
+        ],
+        "stack": ["Spring Boot", "Liquibase", "Angular", "Redux", "SonarQube"]
+      },
+      {
+        "role": "Software Developer Intern",
+        "company": "BNY Mellon · Bank of New York Mellon",
+        "date": "Jun 2023 — Aug 2023",
+        "where": "Pittsburgh, PA",
+        "current": false,
+        "bullets": [
+          "Designed interactive Angular components for improved usability + performance",
+          "Implemented BDD using Gherkin to align test cases with user stories",
+          "Automated testing workflows with Selenium WebDriver — cut manual effort 30%",
+          "Collaborated with Agile teams via Jira for project tracking and delivery"
+        ],
+        "stack": ["Angular", "Gherkin / BDD", "Selenium", "Jira"]
+      }
+    ]
+  },
+
+  "projects": {
+    "sectionNum": "03",
+    "title": "Selected Work",
+    "italic": "Work",
+    "lead": "A small set of things I've worked on the side.",
+    "items": [
+      {
+        "n": "01",
+        "name": "SprintFlow",
+        "sub": "Agile task management",
+        "date": "Jan — May 2024",
+        "role": "Lead Developer",
+        "blurb": "Full-stack agile task management app. React + Vite frontend with Spring Boot APIs. Secured with Spring Security, JWT, BCrypt. CRUD endpoints over PostgreSQL — all containerized with Docker.",
+        "stack": ["React", "Vite", "Spring Boot", "PostgreSQL", "Docker", "JWT"],
+        "color": "var(--magenta)",
+        "link": "https://github.com/A5TA/SprintFlow"
+      },
+      {
+        "n": "02",
+        "name": "TrustWave",
+        "sub": "Blockchain charity platform",
+        "date": "Sept 2023",
+        "role": "Co-Founder · 2nd / 1,200+",
+        "blurb": "Full-stack blockchain app for transparent crypto-based charitable donations. React frontend integrated with Hardhat-deployed smart contracts for verifiable donor-to-charity transactions.",
+        "stack": ["React", "TypeScript", "Hardhat", "Solidity", "MetaMask"],
+        "color": "var(--pink)",
+        "link": ""
+      }
+    ]
+  },
+
+  "skills": {
+    "sectionNum": "04",
+    "title": "Skills",
+    "italic": "Skills",
+    "lead": "The tools I reach for most.",
+    "groups": {
+      "Languages": ["C#", "Java", "TypeScript", "JavaScript", "Python", "Kotlin", "SQL", "Golang", "Dart", "C++", "Solidity"],
+      "Backend": [".NET Core", ".NET Framework", "Spring Boot", "Express.js", "Flask", "Node.js"],
+      "Frontend": ["React", "Angular", "KnockoutJS", "Bootstrap", "Flutter", "Android SDK"],
+      "Databases": ["PostgreSQL", "MongoDB", "MySQL", "Firebase", "SQLite", "Oracle"],
+      "Cloud / DevOps": ["AWS", "Docker", "TeamCity", "GitHub Actions", "Grafana", "LaunchDarkly"],
+      "Testing": ["xUnit", "JUnit", "Jasmine", "Cypress", "Selenium", "Postman"]
+    }
+  },
+
+  "contact": {
+    "sectionNum": "05",
+    "eyebrow": "05 — Get in touch",
+    "headingLine1": "Let's talk",
+    "headingLine2": "shop.",
+    "blurb": "Always happy to talk engineering — backend, full-stack, infrastructure, or an interesting side project. My inbox is open.",
+    "email": "brandonjcardillo@gmail.com",
+    "resumeLabel": "Resume ↗",
+    "socials": [
+      { "label": "LinkedIn →", "href": "https://www.linkedin.com/in/brandon-cardillo" },
+      { "label": "GitHub →", "href": "https://github.com/A5TA" },
+      { "label": "Devpost →", "href": "https://devpost.com/crusherbrandon" }
+    ]
+  },
+
+  "footer": {
+    "left": "© 2026 · Brandon Cardillo",
+    "center": "",
+    "right": ""
+  }
+}
